@@ -1,0 +1,36 @@
+.spline {
+  display: block;
+}
+.splineMobile {
+  display: none;
+}
+
+.exploreLink {
+  text-decoration: none;
+  color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 2px solid white;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 55%;
+  right: 30%;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 20);
+  transition: 0.7s;
+}
+.exploreLink:hover {
+  scale: 105%;
+}
+
+@media only screen and (max-width: 450px) {
+  .spline {
+    display: none;
+  }
+  .splineMobile {
+    display: block;
+  }
+}
